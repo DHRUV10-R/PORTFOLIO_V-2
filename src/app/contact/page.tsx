@@ -35,11 +35,11 @@ export default function ContactPage() {
                         </div>
 
                         <div className={styles.socialGrid}>
-                            <a href="#" className={styles.socialCard} aria-label="GitHub">
+                            <a href="https://github.com/DHRUV10-R" className={styles.socialCard} aria-label="GitHub">
                                 <Github size={24} />
                                 <span>GitHub</span>
                             </a>
-                            <a href="#" className={styles.socialCard} aria-label="LinkedIn">
+                            <a href="www.linkedin.com/in/dhruv-r-55b888262" className={styles.socialCard} aria-label="LinkedIn">
                                 <Linkedin size={24} />
                                 <span>LinkedIn</span>
                             </a>
