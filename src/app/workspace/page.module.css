@@ -1,0 +1,131 @@
+.page {
+    padding: 8rem 1.5rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.title {
+    font-family: var(--font-outfit);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--foreground);
+}
+
+.highlight {
+    color: var(--secondary);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--foreground);
+    opacity: 0.8;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 6rem;
+}
+
+.sectionTitle {
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--foreground);
+    position: relative;
+    display: inline-block;
+}
+
+.sectionTitle::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50%;
+    height: 4px;
+    background: var(--primary);
+    border-radius: 2px;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.serviceCard {
+    text-align: center;
+    border-top: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.serviceCard:hover {
+    border-top-color: var(--primary);
+}
+
+.iconWrapper {
+    width: 64px;
+    height: 64px;
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: var(--primary);
+}
+
+.serviceTitle {
+    font-family: var(--font-outfit);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--foreground);
+}
+
+.serviceDescription {
+    color: var(--foreground);
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+.techGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1.5rem;
+}
+
+.techCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem !important;
+    gap: 1rem;
+}
+
+.techIcon {
+    color: var(--foreground);
+    opacity: 0.8;
+}
+
+.techName {
+    font-weight: 600;
+    color: var(--foreground);
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .techGrid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}

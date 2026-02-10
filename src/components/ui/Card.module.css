@@ -1,0 +1,30 @@
+.card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    overflow: hidden;
+}
+
+.hoverEffect:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow:
+        0 20px 40px -10px rgba(0, 0, 0, 0.1),
+        0 0 20px rgba(var(--primary-rgb), 0.1);
+    /* Inner glow hint */
+    border-color: rgba(var(--primary-rgb), 0.5);
+}
+
+[data-theme='dark'] .hoverEffect:hover {
+    box-shadow:
+        0 20px 40px -10px rgba(0, 0, 0, 0.3),
+        0 0 30px rgba(var(--primary-rgb), 0.15);
+    /* Stronger glow in dark mode */
+    border-color: var(--primary);
+    background: linear-gradient(to bottom right,
+            rgba(20, 20, 20, 0.8),
+            rgba(30, 30, 30, 0.8));
+}
