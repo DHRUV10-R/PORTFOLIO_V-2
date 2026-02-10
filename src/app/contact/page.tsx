@@ -43,7 +43,7 @@ export default function ContactPage() {
                                 <Linkedin size={24} />
                                 <span>LinkedIn</span>
                             </a>
-                            <a href="#" className={styles.socialCard} aria-label="Twitter">
+                            <a href="https://x.com/DhruvRa17283043" className={styles.socialCard} aria-label="Twitter">
                                 <Twitter size={24} />
                                 <span>Twitter</span>
                             </a>
