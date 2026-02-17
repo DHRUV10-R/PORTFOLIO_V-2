@@ -39,11 +39,11 @@ export default function ContactPage() {
                                 <Github size={24} />
                                 <span>GitHub</span>
                             </a>
-                            <a href="www.linkedin.com/in/dhruv-r-55b888262" className={styles.socialCard} aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/dhruv-r-55b888262" className={styles.socialCard} aria-label="LinkedIn">
                                 <Linkedin size={24} />
                                 <span>LinkedIn</span>
                             </a>
-                            <a href="#" className={styles.socialCard} aria-label="Twitter">
+                            <a href="https://x.com/DhruvRa17283043" className={styles.socialCard} aria-label="Twitter">
                                 <Twitter size={24} />
                                 <span>Twitter</span>
                             </a>

@@ -72,8 +72,8 @@ export default async function ProjectDetailsPage({ params }: PageProps) {
                             </div>
                             {/* Add links here if you have them in the data */}
                             <div className={styles.actions}>
-                                <Button fullWidth>View Live Demo</Button>
-                                <Button variant="outline" fullWidth>Source Code</Button>
+                                <Button fullWidth>Check it out</Button>
+                                <Button variant="outline" fullWidth>Read More</Button>
                             </div>
                         </Card>
                     </div>
