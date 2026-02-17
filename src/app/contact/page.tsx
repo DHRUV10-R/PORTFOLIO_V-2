@@ -3,7 +3,7 @@
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
 import styles from "./page.module.css";
-import { Mail, Github, Linkedin, Twitter, Phone } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter, Phone, X } from "lucide-react";
 
 export default function ContactPage() {
     return (
@@ -44,8 +44,8 @@ export default function ContactPage() {
                                 <span>LinkedIn</span>
                             </a>
                             <a href="https://x.com/DhruvRa17283043" className={styles.socialCard} aria-label="X">
-                                <Twitter size={24} />
-                                <span>Twitter</span>
+                                <X size={24} />
+                                <span>X</span>
                             </a>
                         </div>
                     </Card>
