@@ -17,11 +17,11 @@ export default function AboutPreview() {
                     </p>
                     <div className={styles.stats}>
                         <div className={styles.statItem}>
-                            <span className={styles.statNumber}>2+</span>
+                            <span className={styles.statNumber}>1+</span>
                             <span className={styles.statLabel}>Years Coding</span>
                         </div>
                         <div className={styles.statItem}>
-                            <span className={styles.statNumber}>10+</span>
+                            <span className={styles.statNumber}>5+</span>
                             <span className={styles.statLabel}>Projects</span>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ export default function AboutPreview() {
                         </div>
                         <div className={styles.cardBody}>
                             <div className={styles.cardTag}>UI/UX Designer</div>
-                            <div className={styles.cardTag}>Full Stack Dev</div>
-                            <div className={styles.cardTag}>Flutter Expert</div>
+                            <div className={styles.cardTag}>Full Stack Developer</div>
+                            <div className={styles.cardTag}>Flutter Enthusiast</div>
                             <div className={styles.cardTag}>Researcher</div>
                         </div>
                         <div className={styles.cardFooter}>
